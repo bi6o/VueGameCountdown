@@ -1,0 +1,16 @@
+{
+    "name": "game-countdown",
+    "author": "Mohammed Bitar",
+    "license": "MIT",
+    "version": "1.1.1",
+    "description": "A simple 3, 2, 1 countdown component for games",
+    "main": "dist/game-countdown.umd.js",
+    "module": "dist/game-countdown.esm.js",
+    "unpkg": "dist/game-countdown.min.js",
+    "browser": {
+        "./sfc": "src/game-countdown.vue"
+    },
+    "scripts": {
+        "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+    }
+}
